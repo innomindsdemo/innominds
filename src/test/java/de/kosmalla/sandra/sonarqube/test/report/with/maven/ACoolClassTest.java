@@ -16,7 +16,7 @@ public class ACoolClassTest {
         String greetz = coolClass.greetz();
         
         assertTrue(greetz.contains("unit test"));
-        assertfalse(greetz.contains("unittest"));
+         assertfalse(greetz.contains("unittest"));
     }
   
 }
