@@ -15,7 +15,7 @@ public class ACoolClassTest {
         ACoolClass coolClass = new ACoolClass(ACoolClass.TestType.UNIT_TEST);
         String greetz = coolClass.greetz();
         
-        assertTrue(greetz.contains("unit test"));
+          assertTrue(greetz.contains("unit test"));
         //assertfalse(greetz.contains("unittest"));
     }
   
